@@ -70,3 +70,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # MINHAS ANOTAÇÕES
 * yarn create react-app web
 	* cria projeto react
+* yarn add axios
+	* p fazer requests
