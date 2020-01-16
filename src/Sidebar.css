@@ -13,7 +13,7 @@ aside strong{
     color:#333;
 }
 
-aside form .input-block + .input-block{/* o mais é p pegar td item que vem dps de outro (o primeiro ele nao pega) */
+aside form .input-block + .input-block{/* o + é p pegar td item que vem dps de outro (o primeiro ele nao pega) */
     margin-top: 20px;
 }
 
