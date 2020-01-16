@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 // Componente: Bloco isolado de HTML, CSS e JS; o qual não interfere no restante da aplicação
 // Propriedade: Informações que um componente pai passa para o componente filho
-// Estado: 
+// Estado: Informações mantidas pelo compoente (IMUTABILIDADE)
 function App() {
     const [counter, setCounter] = useState(0);
 
