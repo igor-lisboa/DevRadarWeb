@@ -52,7 +52,7 @@ function App() {
             longitude
         });
 
-        console.log(response);
+        setDevs([...devs, response.data]); // pega devs e adiciona response.data
 
         setGitubUsername('');
         setTechs('');
