@@ -1,19 +1,17 @@
 main {
-    flex: 1;
-    /* ocupa td espaco disponivel */
+  flex: 1;
 }
 
 main ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* repete 2 vezes 1fr(tamanho) */
-    gap: 20px;
-    /* distancia colunas e linhas */
-    list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
 }
 
-@media(max-width:650px) {
-    main ul {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 650px) {
+  main ul {
+    grid-template-columns: 1fr;
+  }
 }
+
